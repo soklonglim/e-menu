@@ -1,0 +1,9 @@
+- Run Vagrant VM
+	$ cd ~/fullstack/vagrant
+	$ vagrant up #launch VM
+	$ vagrant ssh #once it's up and running and log terminal to Linux shell
+	$ exit #to log out
+	$ vagrant halt #turn off VM (without deleting anything)
+
+- Share file b/w Vagrant VM and Host machine
+	$ /vagrant #directory to share file(s)
