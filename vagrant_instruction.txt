@@ -1,5 +1,5 @@
 - Run Vagrant VM
-	$ cd ~/fullstack/vagrant
+	$ cd ./vagrant
 	$ vagrant up #launch VM
 	$ vagrant ssh #once it's up and running and log terminal to Linux shell
 	$ exit #to log out

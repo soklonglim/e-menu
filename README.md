@@ -6,4 +6,8 @@ Fundamental of back-end web development by creating our own web application from
 - CRUD: Create, Read, Update, Delete
 - ORM (Object Relational Mapping) allows applicate communicate with sqlite database (for this course we use SQLAlchemy: opensource ORM for python)
 - We will use Vagrant VM with SQLAlchemy installed to this course
-- 
+- 'database_setup.py' creates database
+- 'crud_operations.py' contains some operations to see if database is working properly
+- 'lotsofmenus.py' adds menus item into database
+
+## Lesson 2
