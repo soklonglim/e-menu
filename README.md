@@ -14,4 +14,7 @@ Fundamental of back-end web development by creating our own web application from
 - build http server that runs until (ctrl c) is pressed 
 - server will be able to response to the client via http GET, POST, DELETE
 - get server and database to commuicate by using http GET to list all the restaurants in the database to the webpage
- 
+- add 3 now buttons to the page: add new restaurant, edit, and delete restaurant
+
+## Lesson 3
+-  
