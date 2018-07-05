@@ -17,4 +17,6 @@ Fundamental of back-end web development by creating our own web application from
 - add 3 now buttons to the page: add new restaurant, edit, and delete restaurant
 
 ## Lesson 3
--  
+- Web Application Framework or simply Web Framework represents a collection of libraries and modules that enables a web application developer to write applications without having to bother about low-level details such as protocols, thread management etc. (tutorailspoint.com)
+- Flask framework, a web application framework written in python. (tutorialspoint.com) 
+- Create standard url routing (lession 3 part 7). 
