@@ -10,12 +10,13 @@ session = DBSession()
 from flask import Flask
 app = Flask(__name__)
 
-
+@app.route('/')
 @app.route('/restaurants/<int:restaurant_id>/')
 def myRestaurant(restaurant_id):
     restaurant = session.query(Restaurant).filter_by(id=restaurant_id).one()
     items = session.query(MenuItem).filter_by(restaurant_id=restaurant.id)
     output = ""
+    output += "<b>" + restaurant.name + "</b><br/><br/>"
     for item in items:
         output += item.name + "<br/>"
         output += item.price + "<br/>"
