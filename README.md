@@ -28,4 +28,5 @@ Fundamental of back-end web development by creating our own web application from
 - edit: find the item to be edited. If POST request, edit the item, update database and render back to menu page. Otherwise, request for edite template.
 - delete: find the item to be deleted. If POST request, delete the item, update database and render back to menu page. Otherwise, request for delete template.
 - create a RESTful API for other application to retrieve data from webpage (restaurant, menue) for advertising like purpose. They just need data. There is no need of HTML or CSS. API should return JSON (JavaScript Object Notation) file to the request.
+- add serialize function to database_setup.py to serialize data into json format
 
