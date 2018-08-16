@@ -30,3 +30,10 @@ Fundamental of back-end web development by creating our own web application from
 - create a RESTful API for other application to retrieve data from webpage (restaurant, menue) for advertising like purpose. They just need data. There is no need of HTML or CSS. API should return JSON (JavaScript Object Notation) file to the request.
 - add serialize function to database_setup.py to serialize data into json format
 
+## Lesson 4 (Iterative Development)
+- Checklist
+	- Mock-ups: mockups for each page and its url
+	- Routing: routing to all the pages and forms
+	
+
+
