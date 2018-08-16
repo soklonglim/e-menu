@@ -44,6 +44,6 @@ class MenuItem(Base):
             'course': self.course,
         }
 
-engine = create_engine('sqlite:///restaurantmenu.db')
+engine = create_engine('sqlite:///restaurants.db')
 
 Base.metadata.create_all(engine)

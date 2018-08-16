@@ -1,6 +1,12 @@
 # Full Stack Foundations Course (Udacity)
 Fundamental of back-end web development by creating our own web application from the ground up using iterative development
 
+## How to
+1) first up virtual machine (vagrant) refer to 'vagrant_instruction.txt'.
+2) create database: $ python3 database_setup.py
+3) add data to the create database: $ python3 lotsofmenus.py
+4) fire up the web page and database: $ python3 finalProject.py
+5) to list all the restaurants: go to the browser and type 'http://localhost:5001/restaurant/' without quotes
 
 ## Lesson 1
 - CRUD: Create, Read, Update, Delete
@@ -34,6 +40,12 @@ Fundamental of back-end web development by creating our own web application from
 - Checklist
 	- Mock-ups: mockups for each page and its url
 	- Routing: routing to all the pages and forms
+	- Templates & Forms: generate templates for each function page
+	- CRUD functionality: backup functionalities
+	- API Endpoints: return menu data in JSON format when requested by application
+	- Styling & Mseg Flashing: interface and message flashing for user
+
+NOTE: All the contents and source codes have adopted from Full Stack Foundations Course (Udacity)
 	
 
 
